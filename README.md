@@ -248,106 +248,31 @@ if __name__ == "__main__":
 ### Outputs
 #### i) Calculate the average rating for each movie
 ![image](https://github.com/deeagjin/P138002_Assignment4_DataManagement/assets/152348898/5fb94988-8ac3-4263-a339-4c023ca8a32e)
+
 #### Insights
 This metric helps identify movies that resonate positively with the audience, indicating their popularity and viewer satisfaction. For example, movies like Cosi (1996) and Psycho (1960) received average ratings of 4.0 and 4.1 respectively, suggesting strong viewer approval. In contrast, If Lucy Fell (1996) received a lower average rating of 2.76, indicating mixed viewer sentiment.
 
 #### ii) Identify the top ten movies with the highest average ratings.
-```
-+--------------------+------------------+------------+
-|               title|         avgRating|rating_count|
-+--------------------+------------------+------------+
-|Close Shave, A (1...| 4.491071428571429|         112|
-|Schindler's List ...| 4.466442953020135|         298|
-|Wrong Trousers, T...| 4.466101694915254|         118|
-|   Casablanca (1942)|  4.45679012345679|         243|
-|Wallace & Gromit:...| 4.447761194029851|          67|
-|Shawshank Redempt...| 4.445229681978798|         283|
-|  Rear Window (1954)|4.3875598086124405|         209|
-|Usual Suspects, T...| 4.385767790262173|         267|
-|    Star Wars (1977)|4.3584905660377355|         583|
-| 12 Angry Men (1957)|             4.344|         125|
-+--------------------+------------------+------------+
-only showing top 10 rows
-```
+![image](https://github.com/deeagjin/P138002_Assignment4_DataManagement/assets/152348898/1e2896dc-cb00-4973-8019-39ce7325fadf)
+
 #### Insights
 These movies, such as Close Shave, A (1995) and Schindler's List (1993), maintain high average ratings, reflecting their enduring popularity and critical acclaim. The inclusion of metrics like number of ratings alongside average ratings provides a holistic view of movie popularity and viewer engagement on MovieLens.
 
 #### iii) Find the users who have rated at least 50 movies and identify their favourite movie genres.
-```
-+-------+------------+
-|user_id|rating_count|
-+-------+------------+
-|      1|         272|
-|      2|          62|
-|      3|          54|
-|      5|         175|
-|      6|         211|
-|      7|         403|
-|      8|          59|
-|     10|         184|
-|     11|         181|
-|     12|          51|
-+-------+------------+
-only showing top 10 rows
+![image](https://github.com/deeagjin/P138002_Assignment4_DataManagement/assets/152348898/10a86365-034f-4d9d-ab21-5fb917c461af)
 
-+-------+------+------------+
-|user_id| genre|total_rating|
-+-------+------+------------+
-|      1| Drama|         297|
-|      2| Drama|         100|
-|      3|Action|          39|
-|      5|Action|         176|
-|      6| Drama|         292|
-|      7| Drama|         442|
-|      8|Action|         159|
-|     10| Drama|         259|
-|     11|Comedy|         223|
-|     12| Drama|          74|
-+-------+------+------------+
-only showing top 10 rows
-```
 #### Insights
 Users engaged in rating multiple movies tend to favor genres like Drama, Comedy, and Action, indicating diverse viewing habits and preferences. This analysis helps in tailoring content recommendations and enhancing user experience by catering to specific genre interests of highly active users.
 
 #### iv) Find all the users with age that is less than 20 years old.
-```
-+-------+---+------+----------+--------+
-|user_id|age|gender|occupation|zip_code|
-+-------+---+------+----------+--------+
-|    142| 13|     M|     other|   48118|
-|    482| 18|     F|   student|   40256|
-|    303| 19|     M|   student|   14853|
-|    101| 15|     M|   student|   05146|
-|    872| 19|     F|   student|   74078|
-|    601| 19|     F|    artist|   99687|
-|    817| 19|     M|   student|   60152|
-|    710| 19|     M|   student|   92020|
-|    246| 19|     M|   student|   28734|
-|    451| 16|     M|   student|   48446|
-+-------+---+------+----------+--------+
-only showing top 10 rows
-```
+![image](https://github.com/deeagjin/P138002_Assignment4_DataManagement/assets/152348898/67f89c7e-ff72-4d44-84ec-bb811fbdb4e5)
+
 #### Insights
 Users aged less than 20 years old represent a significant demographic segment on MovieLens, characterized by their youthfulness and varied movie genre interests. The analysis reveals that these younger users often engage with genres like Drama, Comedy, and Action, reflecting their broad and evolving entertainment preferences. Understanding and catering to these preferences can enhance user engagement and retention among younger demographics.
 
 #### v)  Find all the users who have the occupation “scientist” and their age is between 30 and 40 years old.
-```
-+-------+---+------+----------+--------+
-|user_id|age|gender|occupation|zip_code|
-+-------+---+------+----------+--------+
-|    272| 33|     M| scientist|   53706|
-|    430| 38|     M| scientist|   98199|
-|    643| 39|     M| scientist|   55122|
-|    543| 33|     M| scientist|   95123|
-|    874| 36|     M| scientist|   37076|
-|    538| 31|     M| scientist|   21010|
-|    730| 31|     F| scientist|   32114|
-|     74| 39|     M| scientist|   T8H1N|
-|    107| 39|     M| scientist|   60466|
-|    918| 40|     M| scientist|   70116|
-+-------+---+------+----------+--------+
-only showing top 10 rows
-```
+![image](https://github.com/deeagjin/P138002_Assignment4_DataManagement/assets/152348898/f94ce463-a94c-4c76-90b7-7b1ffd035851)
+
 #### Insights
 Users with the occupation "scientist" aged between 30 and 40 years old constitute a specialized demographic within the MovieLens user base. This segment demonstrates a preference for intellectually stimulating genres such as Drama and Action, aligning with their professional interests and preference for thought-provoking content. Tailoring content recommendations and user experiences to meet these preferences can increase engagement and satisfaction among this niche demographic.
 
