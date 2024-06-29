@@ -247,23 +247,7 @@ if __name__ == "__main__":
 ```
 ### Outputs
 #### i) Calculate the average rating for each movie
-```
-+--------------------+------------------+
-|               title|         avgRating|
-+--------------------+------------------+
-|         Cosi (1996)|               4.0|
-|       Psycho (1960)| 4.100418410041841|
-| Three Wishes (1995)|3.2222222222222223|
-| If Lucy Fell (1996)|2.7586206896551726|
-|When We Were King...| 4.045454545454546|
-|   Annie Hall (1977)| 3.911111111111111|
-|    Fair Game (1995)|2.1818181818181817|
-|Heavenly Creature...|3.6714285714285713|
-|Paris, France (1993)|2.3333333333333335|
-|Snow White and th...|3.7093023255813953|
-+--------------------+------------------+
-only showing top 10 rows
-```
+![image](https://github.com/deeagjin/P138002_Assignment4_DataManagement/assets/152348898/5fb94988-8ac3-4263-a339-4c023ca8a32e)
 #### Insights
 This metric helps identify movies that resonate positively with the audience, indicating their popularity and viewer satisfaction. For example, movies like Cosi (1996) and Psycho (1960) received average ratings of 4.0 and 4.1 respectively, suggesting strong viewer approval. In contrast, If Lucy Fell (1996) received a lower average rating of 2.76, indicating mixed viewer sentiment.
 
@@ -367,6 +351,9 @@ only showing top 10 rows
 #### Insights
 Users with the occupation "scientist" aged between 30 and 40 years old constitute a specialized demographic within the MovieLens user base. This segment demonstrates a preference for intellectually stimulating genres such as Drama and Action, aligning with their professional interests and preference for thought-provoking content. Tailoring content recommendations and user experiences to meet these preferences can increase engagement and satisfaction among this niche demographic.
 
+
+### Conclusion
+In conclusion, the analysis of the MovieLens dataset provides valuable insights into viewer behavior, movie preferences, and demographic dynamics. By exploring average ratings, top-rated movies, user engagement metrics, and demographic insights, this report offers actionable insights for content creators, marketers, and platform developers. These insights enable strategic decision-making to optimize content curation, improve user experience, and foster sustained audience engagement on MovieLens.
 
 
 
