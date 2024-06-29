@@ -325,8 +325,47 @@ only showing top 10 rows
 #### Insights
 Users engaged in rating multiple movies tend to favor genres like Drama, Comedy, and Action, indicating diverse viewing habits and preferences. This analysis helps in tailoring content recommendations and enhancing user experience by catering to specific genre interests of highly active users.
 
-#### iv) Find the users who have rated at least 50 movies and identify their favourite movie genres.
+#### iv) Find all the users with age that is less than 20 years old.
+```
++-------+---+------+----------+--------+
+|user_id|age|gender|occupation|zip_code|
++-------+---+------+----------+--------+
+|    142| 13|     M|     other|   48118|
+|    482| 18|     F|   student|   40256|
+|    303| 19|     M|   student|   14853|
+|    101| 15|     M|   student|   05146|
+|    872| 19|     F|   student|   74078|
+|    601| 19|     F|    artist|   99687|
+|    817| 19|     M|   student|   60152|
+|    710| 19|     M|   student|   92020|
+|    246| 19|     M|   student|   28734|
+|    451| 16|     M|   student|   48446|
++-------+---+------+----------+--------+
+only showing top 10 rows
+```
+#### Insights
+Users aged less than 20 years old represent a significant demographic segment on MovieLens, characterized by their youthfulness and varied movie genre interests. The analysis reveals that these younger users often engage with genres like Drama, Comedy, and Action, reflecting their broad and evolving entertainment preferences. Understanding and catering to these preferences can enhance user engagement and retention among younger demographics.
 
+#### v)  Find all the users who have the occupation “scientist” and their age is between 30 and 40 years old.
+```
++-------+---+------+----------+--------+
+|user_id|age|gender|occupation|zip_code|
++-------+---+------+----------+--------+
+|    272| 33|     M| scientist|   53706|
+|    430| 38|     M| scientist|   98199|
+|    643| 39|     M| scientist|   55122|
+|    543| 33|     M| scientist|   95123|
+|    874| 36|     M| scientist|   37076|
+|    538| 31|     M| scientist|   21010|
+|    730| 31|     F| scientist|   32114|
+|     74| 39|     M| scientist|   T8H1N|
+|    107| 39|     M| scientist|   60466|
+|    918| 40|     M| scientist|   70116|
++-------+---+------+----------+--------+
+only showing top 10 rows
+```
+#### Insights
+Users with the occupation "scientist" aged between 30 and 40 years old constitute a specialized demographic within the MovieLens user base. This segment demonstrates a preference for intellectually stimulating genres such as Drama and Action, aligning with their professional interests and preference for thought-provoking content. Tailoring content recommendations and user experiences to meet these preferences can increase engagement and satisfaction among this niche demographic.
 
 
 
